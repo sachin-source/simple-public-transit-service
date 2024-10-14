@@ -9,3 +9,6 @@ async def get_next_schedules(origin_station_id: str, destination_station_id: str
         Schedule(transit_mode="bus", eta_origin="2023-10-14 16:30:09", eta_destination="2023-10-14 17:00:09"),
     ]
 
+async def get_closest_station(coordinates) -> str:
+    # This code to be replaced with a logic to find closest station
+    return "station_123"
