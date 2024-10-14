@@ -6,6 +6,11 @@ class Schedule(BaseModel):
     eta_origin: str
     eta_destination: str
 
+
+class Coordinates(BaseModel):
+    latitude: str
+    longitude: str
+
 class TransitRequest(BaseModel):
     origin_station_id: str
     coordinates: Coordinates
