@@ -37,3 +37,8 @@ This is a FastAPI application that provides a RESTful API for fetching upcoming 
     ```bash
     python requestcode.py
     ```  
+
+5. **Future work**
+    ```bash
+    The current project sends the static response from the api. Reading data from CSV files and sending the realtime response is yet to be done.
+    ```
